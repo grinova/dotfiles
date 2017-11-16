@@ -37,6 +37,7 @@
 	rbc = rebase --continue
 	rbm = rebase master
 	pl = pull --no-stat
+	plr = pull --no-stat --rebase
 	sa = stash apply
 [core]
 	editor = vim
