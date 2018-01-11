@@ -23,7 +23,7 @@
 	hist = log --pretty=format:\"%C(yellow)%h %C(blue)%ad%Creset | %s%C(red)%d %Cgreen[%an]\" --date=short
 	hh = log --pretty=format:\"%C(yellow)%h %C(blue)%ad%Creset | %s%C(red)%d %Cgreen[%an]\" --date=short -10
 	hha = log --pretty=format:\"%C(yellow)%h %C(blue)%ad%Creset | %s%C(red)%d %Cgreen[%an]\" --date=short -10 --author
-	hom = log --pretty=format:\"%C(yellow)%h %C(blue)%ad%Creset | %s%C(red)%d %Cgreen[%an]\" --date=short ...master
+	hom = log --pretty=format:\"%C(yellow)%h %C(blue)%ad%Creset | %s%C(red)%d %Cgreen[%an]\" --date=short ...origin/master
 	br = branch -v
 	co = checkout
 	mst = checkout master
@@ -53,11 +53,6 @@
 [i18n]
 	commitencoding = utf8
 	logoutputencoding = utf8
-[gui]
-	encoding = utf-8
-	recentrepo = D:/repos/shared
-	recentrepo = D:/repos/webui
-	recentrepo = D:/repos/pa6
 [push]
 	default = simple
 [merge]
